@@ -18,4 +18,4 @@ if(temp==reverse_num):
 else:
     print("Not a palindrome!") 
 
-#masukkan angka pada soal maka akan dihasilkan output yang diharapkan
+#masukkan angka untuk menentukan apakah bilangan tersebut merupakan integer palindrome atau bukan
