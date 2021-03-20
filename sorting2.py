@@ -44,7 +44,8 @@ print(random_list_of_nums)
 
 #The worst case scenario is when the smallest or largest element is always selected as the pivot.
 #This would create partitions of size n-1, causing recursive calls n-1 times. This leads us to a worst case time complexity of O(n^2).
-#While this is a terrible worst case, Quick Sort is heavily used because it's average time complexity is much quicker. While the partition function utilizes nested while loops, it does comparisons on all elements of the array to make its swaps. As such, it has a time complexity of O(n).
+#While this is a terrible worst case, Quick Sort is heavily used because it's average time complexity is much quicker. 
+#While the partition function utilizes nested while loops, it does comparisons on all elements of the array to make its swaps. As such, it has a time complexity of O(n).
 #With a good pivot, the Quick Sort function would partition the array into halves which grows logarithmically with n. 
 #Therefore the average time complexity of the Quick Sort algorithm is O(nlog(n)).
 #Merge sort is more efficient and works faster than quick sort in case of larger array size or datasets. 
